@@ -3,7 +3,12 @@
 
 <head>
     <script src="https://code.jquery.com/jquery-git.js"></script>
-    <script> //Your Code Here </script>
+    <!-- setting a value for the input text wwhen button is pressed with jQuery-->
+    <script> $(document).ready(function (){
+        $('#buttonName').click(function() {
+            $('input[name=name]').val('Oso');
+        });
+    }); </script>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width">     
 </head>
